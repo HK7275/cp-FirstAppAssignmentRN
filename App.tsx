@@ -8,6 +8,7 @@ import MoviesScreen from './containers/MoviesScreen';
 import WeatherConverter from './containers/WeatherConverter';
 import DisplayAnImage from './containers/HariLayout';
 import MyImageVIewApp from './containers/MyImageView';
+import Rohanlayout from './containers/RohanLayout';
 
 const Drawer = createDrawerNavigator();
 
@@ -20,6 +21,7 @@ export default function App() {
         <Drawer.Screen name="Weather Converter" component={WeatherConverter}/>
         <Drawer.Screen name="Image Gallary" component={DisplayAnImage} />
         <Drawer.Screen name="My Movie Details" component={MyImageVIewApp} />
+        <Drawer.Screen name="Rohanlayout" component={Rohanlayout} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
